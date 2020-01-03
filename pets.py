@@ -13,4 +13,4 @@ if(var == 'y'):
         print('You have a common pet, which is a cat.')
     else:
         print('You do not have a common pet, which is a', secvar)
-print(petinfo[1])
+print(petinfo[0])
