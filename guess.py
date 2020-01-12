@@ -9,7 +9,7 @@ while True:
     print "You're Correct!"
     print 'Number of guesses: ',
     print num_guesses
-    break 
+    break
   elif (comp_num>int(person_guess)):
     print 'Too low!'
     num_guesses=num_guesses+1
@@ -19,7 +19,7 @@ while True:
   if (num_guesses==5):
     print 'game over'
     print ' '
-    print 'The correct number was ',
-    print comp_num 
+    print 'The correct number ws ',
+    print comp_num
     print 'Nice try!'
     break
