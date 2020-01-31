@@ -14,7 +14,7 @@ while True:
     print 'Too low!'
     num_guesses=num_guesses+1
   elif (int(person_guess)>100):
-    raise RuntimeError('Invalid input')
+    raise RuntimeError('ur bad')
   else:
     print 'Too High!'
     num_guesses=num_guesses+1
