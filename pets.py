@@ -12,5 +12,5 @@ if(var == 'y'):
     elif(secvar == 'cat'):
         print('You do have a common pet, which is a cat.')
     else:
-        print('You don't have a common pet, which is a', secvar)
+        print("You don't have a common pet, which is a", secvar)
 print(petinfo[0])
