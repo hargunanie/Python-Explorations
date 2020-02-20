@@ -1,2 +1,2 @@
 # Python-Explorations
-This is just a series of python programs.
+This is just a series of basic python programs.
