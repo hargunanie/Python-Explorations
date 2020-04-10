@@ -4,13 +4,13 @@ if(var == 'n'):
     print('Okay')
     exit()
 secprompt = 'What kind of pets?'
-secvar = input(secprompt)
-petinfo = [var,secvar]
+secva = input(secprompt)
+petinfo = [var,secva]
 if(var == 'y'):
-    if(secvar == 'dog'):
+    if(secva == 'dog'):
         print('You do have a common pet, which is a dog.')
-    elif(secvar == 'cat'):
+    elif(secva == 'cat'):
         print('You do have a common pet, which is a cat.')
     else:
-        print("You don't have a common pet, which is a", secvar)
+        print("You don't have a common pet, which is a", secva)
 print(petinfo[0])
