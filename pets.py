@@ -1,6 +1,6 @@
 prompt = 'Do you have any pets?'
 var = input(prompt)
-if(var == 'n'):
+if(var == 'no'):
     print('Okay')
     exit()
 secprompt = 'What kind of pets?'
