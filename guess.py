@@ -4,7 +4,7 @@ comp_num=random.randint(1, 100)
 prompt='What is your guess? Between 1 and 100. '
 num_guesses=0
 while True:
-  person_guess=raw_input(prompt)
+  person_guess=input(prompt)
   if (comp_num==int(person_guess)):
     num_guesses=num_guesses+1
     print("You're Correct!")
