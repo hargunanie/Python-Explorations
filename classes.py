@@ -17,11 +17,3 @@ class Planet:
         return f'all planets are {cls.shape}'
 
 
-
-aplanet = Planet()
-print(f'Name is: {aplanet.name}')
-print(f'Radius is: {aplanet.radius}')
-print(f'The gravity is: {aplanet.gravity}')
-print(aplanet.orbit())
-print(Planet.planetshape())
-print(aplanet.planetshape())
