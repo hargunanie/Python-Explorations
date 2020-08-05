@@ -1,4 +1,3 @@
-#THIS IS IN PYTHON 2
 import random
 comp_num=random.randint(1, 100)
 prompt='What is your guess? Between 1 and 100. '
