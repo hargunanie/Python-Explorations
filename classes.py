@@ -12,8 +12,9 @@ class Planet:
         return f'{self.name} is orbiting in the {self.system}'
     
     @classmethod
-
     def planetshape(cls):
         return f'all planets are {cls.shape}'
 
-
+    @staticmethod
+    def planetornot():
+        print('am a planet')
